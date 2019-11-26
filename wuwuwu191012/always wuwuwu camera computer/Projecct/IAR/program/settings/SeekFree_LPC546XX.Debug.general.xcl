@@ -1,0 +1,15 @@
+"I:\IAR\arm\bin\armproc.dll" 
+
+"I:\IAR\arm\bin\armjlink2.dll" 
+
+"C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always wuwuwu camera computer\Projecct\IAR\program\Debug\Exe\SeekFree_LPC546XX.out" 
+
+--plugin="I:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="I:\IAR\arm\config\debugger\NXP\LPC5460x.dmac" 
+
+--flash_loader="I:\IAR\arm\config\flashloader\NXP\FlashNXPLPC5460xM4F512K.board" 
+
+
+
+

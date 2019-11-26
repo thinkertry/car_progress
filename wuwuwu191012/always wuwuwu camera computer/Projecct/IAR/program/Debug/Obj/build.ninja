@@ -1,0 +1,72 @@
+#Generating source browse information for project SeekFree_LPC546XX
+
+
+#Abbreviations
+cc = I$:\IAR\common\bin\SourceIndexer.exe
+ll = I$:\IAR\common\bin\PbdLink.exe
+bd = I$:\IAR\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build assert.pbi : index assert.xcl
+build common.pbi : index common.xcl
+build misc.pbi : index misc.xcl
+build SEEKFREE_PRINTF.pbi : index SEEKFREE_PRINTF.xcl
+build LPC546XX_adc.pbi : index LPC546XX_adc.xcl
+build LPC546XX_ctimer.pbi : index LPC546XX_ctimer.xcl
+build LPC546XX_dma.pbi : index LPC546XX_dma.xcl
+build LPC546XX_eeprom.pbi : index LPC546XX_eeprom.xcl
+build LPC546XX_flexcomm.pbi : index LPC546XX_flexcomm.xcl
+build LPC546XX_gint.pbi : index LPC546XX_gint.xcl
+build LPC546XX_gpio.pbi : index LPC546XX_gpio.xcl
+build LPC546XX_iic.pbi : index LPC546XX_iic.xcl
+build LPC546XX_iocon.pbi : index LPC546XX_iocon.xcl
+build LPC546XX_mrt.pbi : index LPC546XX_mrt.xcl
+build LPC546XX_pint.pbi : index LPC546XX_pint.xcl
+build LPC546XX_pit.pbi : index LPC546XX_pit.xcl
+build LPC546XX_pll.pbi : index LPC546XX_pll.xcl
+build LPC546XX_sct.pbi : index LPC546XX_sct.xcl
+build LPC546XX_spi.pbi : index LPC546XX_spi.xcl
+build LPC546XX_systick.pbi : index LPC546XX_systick.xcl
+build LPC546XX_uart.pbi : index LPC546XX_uart.xcl
+build SEEKFREE_18TFT.pbi : index SEEKFREE_18TFT.xcl
+build SEEKFREE_7725.pbi : index SEEKFREE_7725.xcl
+build SEEKFREE_FONT.pbi : index SEEKFREE_FONT.xcl
+build SEEKFREE_FUN.pbi : index SEEKFREE_FUN.xcl
+build SEEKFREE_ICM20602.pbi : index SEEKFREE_ICM20602.xcl
+build SEEKFREE_IIC.pbi : index SEEKFREE_IIC.xcl
+build SEEKFREE_L3G4200D.pbi : index SEEKFREE_L3G4200D.xcl
+build SEEKFREE_MMA8451.pbi : index SEEKFREE_MMA8451.xcl
+build SEEKFREE_MPU6050.pbi : index SEEKFREE_MPU6050.xcl
+build SEEKFREE_MT9V032.pbi : index SEEKFREE_MT9V032.xcl
+build SEEKFREE_NRF24L01.pbi : index SEEKFREE_NRF24L01.xcl
+build SEEKFREE_OLED.pbi : index SEEKFREE_OLED.xcl
+build SEEKFREE_VIRSCO.pbi : index SEEKFREE_VIRSCO.xcl
+build system_LPC54606.pbi : index system_LPC54606.xcl
+build Data_Send.pbi : index Data_Send.xcl
+build isr.pbi : index isr.xcl
+build main.pbi : index main.xcl
+build search.pbi : index search.xcl
+build SeekFree_LPC546XX_part0.pbi : link assert.pbi common.pbi misc.pbi SEEKFREE_PRINTF.pbi LPC546XX_adc.pbi LPC546XX_ctimer.pbi
+build SeekFree_LPC546XX_part1.pbi : link LPC546XX_dma.pbi LPC546XX_eeprom.pbi LPC546XX_flexcomm.pbi LPC546XX_gint.pbi LPC546XX_gpio.pbi LPC546XX_iic.pbi
+build SeekFree_LPC546XX_part2.pbi : link LPC546XX_iocon.pbi LPC546XX_mrt.pbi LPC546XX_pint.pbi LPC546XX_pit.pbi LPC546XX_pll.pbi LPC546XX_sct.pbi
+build SeekFree_LPC546XX_part3.pbi : link LPC546XX_spi.pbi LPC546XX_systick.pbi LPC546XX_uart.pbi SEEKFREE_18TFT.pbi SEEKFREE_7725.pbi SEEKFREE_FONT.pbi
+build SeekFree_LPC546XX_part4.pbi : link SEEKFREE_FUN.pbi SEEKFREE_ICM20602.pbi SEEKFREE_IIC.pbi SEEKFREE_L3G4200D.pbi SEEKFREE_MMA8451.pbi SEEKFREE_MPU6050.pbi
+build SeekFree_LPC546XX_part5.pbi : link SEEKFREE_MT9V032.pbi SEEKFREE_NRF24L01.pbi SEEKFREE_OLED.pbi SEEKFREE_VIRSCO.pbi system_LPC54606.pbi Data_Send.pbi
+build SeekFree_LPC546XX_part6.pbi : link isr.pbi main.pbi search.pbi
+build SeekFree_LPC546XX.pbd : link SeekFree_LPC546XX_part0.pbi SeekFree_LPC546XX_part1.pbi SeekFree_LPC546XX_part2.pbi SeekFree_LPC546XX_part3.pbi SeekFree_LPC546XX_part4.pbi SeekFree_LPC546XX_part5.pbi SeekFree_LPC546XX_part6.pbi
+build SeekFree_LPC546XX.pbw : browsedata SeekFree_LPC546XX.pbd
+
+

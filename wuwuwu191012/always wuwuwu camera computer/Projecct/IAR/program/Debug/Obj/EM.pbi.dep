@@ -1,0 +1,54 @@
+EM.pbi: \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\headfile.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\USER\inc\EM.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\USER\inc\search.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\USER\inc\Data_Send.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_ICM20602.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_L3G4200D.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_MMA8451.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_MT9V032.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_7725.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_VIRSCO.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_NRF24L01.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_OLED.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_MPU6050.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_IIC.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_FONT.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_18TFT.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_mrt.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_eeprom.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_iic.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_spi.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_dma.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_sct.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_pint.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_ctimer.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_pit.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_adc.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_gint.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_systick.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_uart.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_gpio.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_iocon.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_pll.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\inc\LPC546XX_flexcomm.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\seekfree\SEEKFREE_FUN.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\common\assert.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\common\misc.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\startup\DeviceSupport\system_LPC54606.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\startup\CoreSupport\core_cm4_simd.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\startup\CoreSupport\core_cmFunc.h \
+  E:\IAR\arm\inc\c\iccarm_builtin.h E:\IAR\arm\inc\c\cmsis_iar.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\startup\CoreSupport\core_cmInstr.h \
+  E:\IAR\arm\inc\c\ycheck.h E:\IAR\arm\inc\c\stdint.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\startup\CoreSupport\core_cm4.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\startup\DeviceSupport\LPC54606.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\USER\inc\LPC546XX_config.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\common\SEEKFREE_PRINTF.h \
+  E:\IAR\arm\inc\c\DLib_Product_string.h E:\IAR\arm\inc\c\string.h \
+  E:\IAR\arm\inc\c\DLib_float_setup.h E:\IAR\arm\inc\c\math.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\IAR\program\..\..\..\Libraries\drives\common\common.h \
+  E:\IAR\arm\inc\c\DLib_Product_stdlib.h E:\IAR\arm\inc\c\ysizet.h \
+  E:\IAR\arm\inc\c\DLib_Product.h E:\IAR\arm\inc\c\DLib_Defaults.h \
+  E:\IAR\arm\inc\c\yvals.h E:\IAR\arm\inc\c\stdlib.h \
+  C:\Users\Think\Desktop\lpc\ demo\always\ wuwuwu\ camera\ computer\Projecct\USER\src\EM.c

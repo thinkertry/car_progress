@@ -1,0 +1,715 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  16/Nov/2019  22:48:42
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Exe\SeekFree_LPC546XX.out.tmp
+#    Map file     =
+#        C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\List\SeekFree_LPC546XX.map
+#    Command line =
+#        -f C:\Users\liuke\AppData\Local\Temp\EWEA90.tmp
+#        ("C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\assert.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\common.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\Data_Send.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\isr.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_adc.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\LPC546XX_ctimer.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_dma.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\LPC546XX_eeprom.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\LPC546XX_flexcomm.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_gint.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_gpio.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_iic.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\LPC546XX_iocon.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_mrt.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_pint.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_pit.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_pll.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_sct.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_spi.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\LPC546XX_systick.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\LPC546XX_uart.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\main.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\misc.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\search.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_18TFT.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_7725.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_FONT.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_FUN.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_ICM20602.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_IIC.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_L3G4200D.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_MMA8451.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_MPU6050.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_MT9V032.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_NRF24L01.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_OLED.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_PRINTF.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\SEEKFREE_VIRSCO.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\startup_LPC54606.o"
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Obj\system_LPC54606.o"
+#        --no_out_extension -o
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\Exe\SeekFree_LPC546XX.out.tmp"
+#        --map
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera
+#        computer\Projecct\IAR\program\Debug\List\SeekFree_LPC546XX.map"
+#        --config
+#        "C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always
+#        wuwuwu camera computer\Projecct\IAR\program\SeekFree_LPC546XX.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x7'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 4K, alignment = 8 { };
+"P3":  place in [from 0x400'0000 to 0x400'7fff] { block CSTACK, block HEAP };
+"P4":  place in [from 0x0 to 0x0] |
+                [from 0x2000'0000 to 0x2002'7fff] { rw };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P5"
+  rw section application_specific_rw  in "P2|P5"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x124
+  .intvec            ro code          0x0   0x124  startup_LPC54606.o [1]
+                                  - 0x124   0x124
+
+"P1":                                      0x4dac
+  .text              ro code        0x124  0x20f8  search.o [1]
+  .text              ro code       0x221c     0x8  abs.o [2]
+  .text              ro code       0x2224    0x22  S32ToDbl.o [3]
+  .text              ro code       0x2246    0x3a  zero_init3.o [4]
+  .text              ro code       0x2280   0x246  DblDiv.o [3]
+  .text              ro code       0x24c6    0x2e  copy_init3.o [4]
+  .text              ro code       0x24f4    0x68  DblToFlt.o [3]
+  .text              ro code       0x255c     0x6  ABImemclr4.o [4]
+  .text              ro code       0x2562     0x2  startup_LPC54606.o [1]
+  .text              ro code       0x2564    0x48  FltToDbl.o [3]
+  .text              ro code       0x25ac   0x1a2  DblMul.o [3]
+  .text              ro code       0x274e     0x2  startup_LPC54606.o [1]
+  .text              ro code       0x2750   0x17a  DblAdd.o [3]
+  .text              ro code       0x28ca     0x2  startup_LPC54606.o [1]
+  .text              ro code       0x28cc    0x32  ABImemset48.o [4]
+  .text              ro code       0x28fe     0x2  startup_LPC54606.o [1]
+  .text              ro code       0x2900    0xe2  DblSub.o [3]
+  .text              ro code       0x29e2     0x2  startup_LPC54606.o [1]
+  Veneer             ro code       0x29e4     0x8  - Linker created -
+  .text              ro code       0x29ec   0x878  SEEKFREE_MT9V032.o [1]
+  .text              ro code       0x3264   0x4f8  LPC546XX_uart.o [1]
+  .text              ro code       0x375c    0x50  LPC546XX_systick.o [1]
+  .text              ro code       0x37ac   0x384  LPC546XX_sct.o [1]
+  .text              ro code       0x3b30   0x120  LPC546XX_dma.o [1]
+  .text              ro code       0x3c50   0x130  LPC546XX_pint.o [1]
+  .text              ro code       0x3d80    0x1a  U32ToDbl.o [3]
+  .text              ro code       0x3d9a     0x2  startup_LPC54606.o [1]
+  .text              ro code       0x3d9c    0x2e  DblCmpLe.o [3]
+  .text              ro code       0x3dca     0x2  startup_LPC54606.o [1]
+  .text              ro code       0x3dcc   0x102  sqrt.o [3]
+  .text              ro code       0x3ed0    0x2e  DblCmpGe.o [3]
+  .text              ro code       0x3f00    0x44  LPC546XX_iocon.o [1]
+  .text              ro code       0x3f44   0x162  LPC546XX_flexcomm.o [1]
+  .text              ro code       0x40a6     0x8  SEEKFREE_FUN.o [1]
+  .text              ro code       0x40b0   0x124  LPC546XX_gpio.o [1]
+  .text              ro code       0x41d4   0x47c  LPC546XX_pll.o [1]
+  .text              ro code       0x4650   0x264  Data_Send.o [1]
+  .text              ro code       0x48b4   0x110  isr.o [1]
+  .text              ro code       0x49c4    0x5c  system_LPC54606.o [1]
+  .text              ro code       0x4a20    0x30  main.o [1]
+  .text              ro code       0x4a50    0x28  data_init.o [4]
+  .text              ro code       0x4a78    0x22  fpinit_M.o [3]
+  .iar.init_table    const         0x4a9c    0x24  - Linker created -
+  .text              ro code       0x4ac0    0x1e  cmain.o [4]
+  .text              ro code       0x4ade     0x4  low_level_init.o [2]
+  .text              ro code       0x4ae2     0x4  exit.o [2]
+  .text              ro code       0x4ae8     0xa  cexit.o [4]
+  .text              ro code       0x4af4    0x14  exit.o [5]
+  .text              ro code       0x4b08    0x10  startup_LPC54606.o [1]
+  .text              ro code       0x4b18     0xc  startup_LPC54606.o [1]
+  .text              ro code       0x4b24     0xc  cstartup_M.o [4]
+  .text              ro code       0x4b30     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b38     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b40     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b48     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b50     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b58     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b60     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b68     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b70     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b78     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b80     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b88     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b90     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4b98     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4ba0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4ba8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4bb0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4bb8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4bc0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4bc8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4bd0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4bd8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4be0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4be8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4bf0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4bf8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c00     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c08     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c10     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c18     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c20     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c28     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c30     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c38     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c40     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c48     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c50     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c58     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c60     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c68     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c70     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c78     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c80     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c88     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c90     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4c98     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4ca0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4ca8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4cb0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4cb8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4cc0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4cc8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4cd0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4cd8     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4ce0     0x8  startup_LPC54606.o [1]
+  .text              ro code       0x4ce8     0x8  startup_LPC54606.o [1]
+  .rodata            const         0x4cf0     0x0  zero_init3.o [4]
+  .rodata            const         0x4cf0     0x0  copy_init3.o [4]
+  Initializer bytes  const         0x4cf0   0x1e0  <for P4 s0>
+                                 - 0x4ed0  0x4dac
+
+"P3":                                      0x2000
+  CSTACK                       0x400'0000  0x2000  <Block>
+    CSTACK           uninit    0x400'0000  0x2000  <Block tail>
+                             - 0x400'2000  0x2000
+
+"P4", part 1 of 2:                          0x1e0
+  P4 s0                       0x2000'0000   0x1e0  <Init block>
+    .data            inited   0x2000'0000    0xf0  main.o [1]
+    .textrw          inited   0x2000'00f0    0x4c  SEEKFREE_MT9V032.o [1]
+    .data            inited   0x2000'013c    0x28  LPC546XX_flexcomm.o [1]
+    .data            inited   0x2000'0164    0x28  LPC546XX_uart.o [1]
+    .data            inited   0x2000'018c    0x24  SEEKFREE_MT9V032.o [1]
+    .data            inited   0x2000'01b0    0x20  SEEKFREE_MT9V032.o [1]
+    .data            inited   0x2000'01d0     0x4  main.o [1]
+    .data            inited   0x2000'01d4     0x4  search.o [1]
+    .data            inited   0x2000'01d8     0x2  LPC546XX_pll.o [1]
+    .data            inited   0x2000'01da     0x1  search.o [1]
+    .data            inited   0x2000'01db     0x1  search.o [1]
+    .data            inited   0x2000'01dc     0x1  SEEKFREE_MT9V032.o [1]
+                            - 0x2000'01e0   0x1e0
+
+"P4", part 2 of 2:                         0xa12c
+  .bss               zero     0x2000'01e0  0x5820  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'5a00  0x2580  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'7f80  0x12c0  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'9240   0x4b0  Data_Send.o [1]
+  .bss               zero     0x2000'9800   0x1e0  LPC546XX_dma.o [1]
+  .bss               zero     0x2000'99e0    0xf0  search.o [1]
+  .bss               zero     0x2000'9ad0    0xf0  search.o [1]
+  .bss               zero     0x2000'9bc0    0xf0  search.o [1]
+  .bss               zero     0x2000'9cb0    0xf0  search.o [1]
+  .bss               zero     0x2000'9da0    0xf0  search.o [1]
+  .bss               zero     0x2000'9e90    0xf0  search.o [1]
+  .bss               zero     0x2000'9f80    0xf0  search.o [1]
+  .bss               zero     0x2000'a070    0xf0  search.o [1]
+  .bss               zero     0x2000'a160    0x78  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'a1d8    0x50  Data_Send.o [1]
+  .bss               zero     0x2000'a228    0x10  search.o [1]
+  .bss               zero     0x2000'a238    0x10  search.o [1]
+  .bss               zero     0x2000'a248    0x10  search.o [1]
+  .bss               zero     0x2000'a258     0x4  Data_Send.o [1]
+  .bss               zero     0x2000'a25c     0x4  Data_Send.o [1]
+  .bss               zero     0x2000'a260     0x4  search.o [1]
+  .bss               zero     0x2000'a264     0x4  search.o [1]
+  .bss               zero     0x2000'a268     0x4  search.o [1]
+  .bss               zero     0x2000'a26c     0x4  search.o [1]
+  .bss               zero     0x2000'a270     0x4  search.o [1]
+  .bss               zero     0x2000'a274     0x4  search.o [1]
+  .bss               zero     0x2000'a278     0x4  search.o [1]
+  .bss               zero     0x2000'a27c     0x4  search.o [1]
+  .bss               zero     0x2000'a280     0x4  search.o [1]
+  .bss               zero     0x2000'a284     0x4  search.o [1]
+  .bss               zero     0x2000'a288     0x4  search.o [1]
+  .bss               zero     0x2000'a28c     0x4  search.o [1]
+  .bss               zero     0x2000'a290     0x4  search.o [1]
+  .bss               zero     0x2000'a294     0x4  search.o [1]
+  .bss               zero     0x2000'a298     0x4  search.o [1]
+  .bss               zero     0x2000'a29c     0x4  search.o [1]
+  .bss               zero     0x2000'a2a0     0x4  search.o [1]
+  .bss               zero     0x2000'a2a4     0x4  search.o [1]
+  .bss               zero     0x2000'a2a8     0x4  search.o [1]
+  .bss               zero     0x2000'a2ac     0x4  search.o [1]
+  .bss               zero     0x2000'a2b0     0x4  search.o [1]
+  .bss               zero     0x2000'a2b4     0x4  search.o [1]
+  .bss               zero     0x2000'a2b8     0x4  search.o [1]
+  .bss               zero     0x2000'a2bc     0x4  search.o [1]
+  .bss               zero     0x2000'a2c0     0x4  search.o [1]
+  .bss               zero     0x2000'a2c4     0x4  search.o [1]
+  .bss               zero     0x2000'a2c8     0x4  search.o [1]
+  .bss               zero     0x2000'a2cc     0x4  search.o [1]
+  .bss               zero     0x2000'a2d0     0x4  search.o [1]
+  .bss               zero     0x2000'a2d4     0x4  search.o [1]
+  .bss               zero     0x2000'a2d8     0x4  search.o [1]
+  .bss               zero     0x2000'a2dc     0x4  search.o [1]
+  .bss               zero     0x2000'a2e0     0x4  search.o [1]
+  .bss               zero     0x2000'a2e4     0x4  search.o [1]
+  .bss               zero     0x2000'a2e8     0x4  search.o [1]
+  .bss               zero     0x2000'a2ec     0x4  search.o [1]
+  .bss               zero     0x2000'a2f0     0x4  search.o [1]
+  .bss               zero     0x2000'a2f4     0x4  search.o [1]
+  .bss               zero     0x2000'a2f8     0x4  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'a2fc     0x4  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'a300     0x4  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'a304     0x2  SEEKFREE_ICM20602.o [1]
+  .bss               zero     0x2000'a306     0x2  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'a308     0x1  Data_Send.o [1]
+  .bss               zero     0x2000'a309     0x1  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'a30a     0x1  SEEKFREE_MT9V032.o [1]
+  .bss               zero     0x2000'a30b     0x1  SEEKFREE_MT9V032.o [1]
+                            - 0x2000'a30c  0xa12c
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x4ed0     0x7'ffff  0x7'b130
+   0x400'2000   0x400'7fff    0x6000
+  0x2000'a30c  0x2002'7fff  0x1'dcf4
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0xa12c:
+          0x2000'01e0  0xa12c
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x1e0 (100% of destination):
+               0x4cf0   0x1e0
+    1 destination range, total size 0x1dd:
+          0x2000'0000   0x1dd
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module               ro code  rw code  ro data  rw data
+    ------               -------  -------  -------  -------
+command line/config:
+    -------------------------------------------------------
+    Total:
+
+C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always wuwuwu camera computer\Projecct\IAR\program\Debug\Obj: [1]
+    Data_Send.o              612                      1'289
+    LPC546XX_dma.o           288                        480
+    LPC546XX_flexcomm.o      354                40       40
+    LPC546XX_gpio.o          292
+    LPC546XX_iocon.o          68
+    LPC546XX_pint.o          304
+    LPC546XX_pll.o         1'148                 2        2
+    LPC546XX_sct.o           900
+    LPC546XX_systick.o        80
+    LPC546XX_uart.o        1'272                40       40
+    SEEKFREE_FUN.o             8
+    SEEKFREE_ICM20602.o                                   2
+    SEEKFREE_MT9V032.o     2'168       76      145   37'166
+    isr.o                    272
+    main.o                    48               244      244
+    search.o               8'440                 6    2'126
+    startup_LPC54606.o       782
+    system_LPC54606.o         92
+    -------------------------------------------------------
+    Total:                17'128       76      477   41'389
+
+dl7M_tln.a: [2]
+    abs.o                      8
+    exit.o                     4
+    low_level_init.o           4
+    -------------------------------------------------------
+    Total:                    16
+
+m7M_tls.a: [3]
+    DblAdd.o                 378
+    DblCmpGe.o                46
+    DblCmpLe.o                46
+    DblDiv.o                 582
+    DblMul.o                 418
+    DblSub.o                 226
+    DblToFlt.o               104
+    FltToDbl.o                72
+    S32ToDbl.o                34
+    U32ToDbl.o                26
+    fpinit_M.o                34
+    sqrt.o                   258
+    -------------------------------------------------------
+    Total:                 2'224
+
+rt7M_tl.a: [4]
+    ABImemclr4.o               6
+    ABImemset48.o             50
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              46
+    cstartup_M.o              12
+    data_init.o               40
+    zero_init3.o              58
+    -------------------------------------------------------
+    Total:                   252
+
+shb_l.a: [5]
+    exit.o                    20
+    -------------------------------------------------------
+    Total:                    20
+
+    Gaps                      10                 2      272
+    Linker created             8                39    8'192
+-----------------------------------------------------------
+    Grand Total:          19'658       76      518   49'853
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address    Size  Type      Object
+-----                       -------    ----  ----      ------
+.iar.init_table$$Base        0x4a9c           --   Gb  - Linker created -
+.iar.init_table$$Limit       0x4ac0           --   Gb  - Linker created -
+?main                        0x4ac1          Code  Gb  cmain.o [4]
+Allwhite_find                 0xca5   0x168  Code  Gb  search.o [1]
+Allwhiteend             0x2000'a264     0x4  Data  Gb  search.o [1]
+Allwhiteend2            0x2000'a26c     0x4  Data  Gb  search.o [1]
+Allwhiterow             0x2000'9e90    0xf0  Data  Gb  search.o [1]
+Allwhitestart           0x2000'a260     0x4  Data  Gb  search.o [1]
+Allwhitestart2          0x2000'a268     0x4  Data  Gb  search.o [1]
+CSTACK$$Base             0x400'0000           --   Gb  - Linker created -
+CSTACK$$Limit            0x400'2000           --   Gb  - Linker created -
+Cam_Block_State         0x2000'a2d4     0x4  Data  Gb  search.o [1]
+Cam_Break_Flag          0x2000'a2bc     0x4  Data  Gb  search.o [1]
+Cam_Break_Rec                0x12d9    0xda  Code  Gb  search.o [1]
+Cam_End                 0x2000'a2c8     0x4  Data  Gb  search.o [1]
+Cam_End_Detect                0x82b    0x88  Code  Gb  search.o [1]
+Cam_offset              0x2000'a2b4     0x4  Data  Gb  search.o [1]
+Cam_offset2             0x2000'a2b8     0x4  Data  Gb  search.o [1]
+Cam_offset_filter       0x2000'a248    0x10  Data  Gb  search.o [1]
+Camera_main                  0x321d    0x48  Code  Gb  SEEKFREE_MT9V032.o [1]
+DMA0_DriverIRQHandler        0x4905    0x10  Code  Gb  isr.o [1]
+FINAL                   0x2000'a160    0x78  Data  Gb  SEEKFREE_MT9V032.o [1]
+FLEXCOMM0_DriverIRQHandler
+                             0x48c7    0x2a  Code  Gb  isr.o [1]
+FLEXCOMM5_DriverIRQHandler
+                             0x4915    0x2e  Code  Gb  isr.o [1]
+FLEXCOMMN               0x2000'013c    0x28  Data  Gb  LPC546XX_flexcomm.o [1]
+GET_CFG                 0x2000'01b0    0x20  Data  Gb  SEEKFREE_MT9V032.o [1]
+GINT0_DriverIRQHandler       0x48b5    0x12  Code  Gb  isr.o [1]
+GetOSTU                      0x2cc1   0x276  Code  Gb  SEEKFREE_MT9V032.o [1]
+Get_Use_Image           0x2000'00f1    0x4c  Code  Gb  SEEKFREE_MT9V032.o [1]
+HardFault_Handler            0x4a1f     0x2  Code  Gb  system_LPC54606.o [1]
+Image_Use               0x2000'7f80  0x12c0  Data  Gb  SEEKFREE_MT9V032.o [1]
+LR_Slope_fig                  0x8b5   0x218  Code  Gb  search.o [1]
+LR_slope                0x2000'a2a8     0x4  Data  Gb  search.o [1]
+L_R_Slope                     0xb21   0x170  Code  Gb  search.o [1]
+Lef                     0x2000'99e0    0xf0  Data  Gb  search.o [1]
+Lef_End                 0x2000'a2c0     0x4  Data  Gb  search.o [1]
+Lef_break_point         0x2000'a278     0x4  Data  Gb  search.o [1]
+Lef_circle              0x2000'a270     0x4  Data  Gb  search.o [1]
+Lef_edge                0x2000'a2fc     0x4  Data  Gb  SEEKFREE_MT9V032.o [1]
+Lef_err                 0x2000'9bc0    0xf0  Data  Gb  search.o [1]
+Lef_leap                0x2000'a228    0x10  Data  Gb  search.o [1]
+Lef_slope               0x2000'a2ac     0x4  Data  Gb  search.o [1]
+MRT0_DriverIRQHandler        0x4943    0x4a  Code  Gb  isr.o [1]
+MT9V032_CFG             0x2000'018c    0x24  Data  Gb  SEEKFREE_MT9V032.o [1]
+M_divider                    0x4461    0x7e  Code  Gb  LPC546XX_pll.o [1]
+Mid                     0x2000'9da0    0xf0  Data  Gb  search.o [1]
+Middle                  0x2000'01d4     0x4  Data  Gb  search.o [1]
+My_Put_Char                  0x47c9    0x10  Code  Gb  Data_Send.o [1]
+NMI_Handler                  0x4a1d     0x2  Code  Gb  system_LPC54606.o [1]
+NVIC_DisableIRQ              0x3f5b    0x16  Code  Lc  LPC546XX_flexcomm.o [1]
+NVIC_EnableIRQ               0x3f45    0x16  Code  Lc  LPC546XX_flexcomm.o [1]
+NVIC_EnableIRQ               0x29ed    0x18  Code  Lc  SEEKFREE_MT9V032.o [1]
+NVIC_SetPriority             0x2a05    0x30  Code  Lc  SEEKFREE_MT9V032.o [1]
+N_divider                    0x435f    0x88  Code  Gb  LPC546XX_pll.o [1]
+New_Lef                 0x2000'9f80    0xf0  Data  Gb  search.o [1]
+New_Rig                 0x2000'a070    0xf0  Data  Gb  search.o [1]
+PIN_INT7_DriverIRQHandler
+                             0x48fd     0x8  Code  Gb  isr.o [1]
+P_divider                    0x43e7    0x7a  Code  Gb  LPC546XX_pll.o [1]
+Pic_Block_Rec                0x115d   0x16c  Code  Gb  search.o [1]
+Pic_DrawMid                   0x227   0x4e2  Code  Gb  search.o [1]
+Pic_Fix_Line                 0x1879   0x518  Code  Gb  search.o [1]
+Pic_Fix_Line::road1_flag1
+                        0x2000'01da     0x1  Data  Lc  search.o [1]
+Pic_Fix_Line::road2_flag1
+                        0x2000'01db     0x1  Data  Lc  search.o [1]
+Pic_Fix_Line::stat_slope
+                        0x2000'a2f0     0x4  Data  Lc  search.o [1]
+Pic_Fix_Line::stat_slope2
+                        0x2000'a2f4     0x4  Data  Lc  search.o [1]
+Pic_find_circle               0xe21   0x270  Code  Gb  search.o [1]
+Pic_find_leap                0x1091    0xc2  Code  Gb  search.o [1]
+Pic_new                 0x2000'9240   0x4b0  Data  Gb  Data_Send.o [1]
+Pic_noi_elim                  0x125   0x102  Code  Gb  search.o [1]
+Pic_offset_fig               0x1de1   0x316  Code  Gb  search.o [1]
+Pic_offset_filter            0x2109    0x9a  Code  Gb  search.o [1]
+Pic_particular               0x312d    0x62  Code  Gb  SEEKFREE_MT9V032.o [1]
+Pic_send_new                 0x474f    0x7a  Code  Gb  Data_Send.o [1]
+Pic_undistort                 0x709    0x78  Code  Gb  search.o [1]
+Pixle                   0x2000'5a00  0x2580  Data  Gb  SEEKFREE_MT9V032.o [1]
+RIT_DriverIRQHandler         0x48f1     0xc  Code  Gb  isr.o [1]
+Region$$Table$$Base          0x4a9c           --   Gb  - Linker created -
+Region$$Table$$Limit         0x4ac0           --   Gb  - Linker created -
+Rig                     0x2000'9ad0    0xf0  Data  Gb  search.o [1]
+Rig_End                 0x2000'a2c4     0x4  Data  Gb  search.o [1]
+Rig_break_point         0x2000'a27c     0x4  Data  Gb  search.o [1]
+Rig_circle              0x2000'a274     0x4  Data  Gb  search.o [1]
+Rig_edge                0x2000'a300     0x4  Data  Gb  SEEKFREE_MT9V032.o [1]
+Rig_err                 0x2000'9cb0    0xf0  Data  Gb  search.o [1]
+Rig_leap                0x2000'a238    0x10  Data  Gb  search.o [1]
+Rig_slope               0x2000'a2b0     0x4  Data  Gb  search.o [1]
+Road                    0x2000'a2a4     0x4  Data  Gb  search.o [1]
+Road0_flag              0x2000'a298     0x4  Data  Gb  search.o [1]
+Road11_count            0x2000'a280     0x4  Data  Gb  search.o [1]
+Road14_count            0x2000'a284     0x4  Data  Gb  search.o [1]
+Road15_count            0x2000'a288     0x4  Data  Gb  search.o [1]
+Road1_flag              0x2000'a29c     0x4  Data  Gb  search.o [1]
+Road21_count            0x2000'a28c     0x4  Data  Gb  search.o [1]
+Road24_count            0x2000'a290     0x4  Data  Gb  search.o [1]
+Road25_count            0x2000'a294     0x4  Data  Gb  search.o [1]
+Road2_flag              0x2000'a2a0     0x4  Data  Gb  search.o [1]
+Road6_flag              0x2000'a2ec     0x4  Data  Gb  search.o [1]
+Road_rec                     0x1409   0x42c  Code  Gb  search.o [1]
+Send_Begin                   0x4669    0x18  Code  Gb  Data_Send.o [1]
+Send_Data                    0x4651    0x18  Code  Gb  Data_Send.o [1]
+Send_Img                     0x4681    0xce  Code  Gb  Data_Send.o [1]
+Send_Variable                0x47d9    0x7a  Code  Gb  Data_Send.o [1]
+Slope                         0xad1    0x4a  Code  Gb  search.o [1]
+SystemInit                   0x49c5    0x34  Code  Gb  system_LPC54606.o [1]
+UARTN                   0x2000'0164    0x28  Data  Gb  LPC546XX_uart.o [1]
+Variable                0x2000'a1d8    0x50  Data  Gb  Data_Send.o [1]
+Variable_update              0x4853    0x3a  Code  Gb  Data_Send.o [1]
+__Vectors                       0x0           --   Gb  startup_LPC54606.o [1]
+__Vectors_End                 0x124          Data  Gb  startup_LPC54606.o [1]
+__Vectors_Size {Abs}          0x124           --   Gb  startup_LPC54606.o [1]
+__aeabi_cdcmple              0x3d9d          Code  Gb  DblCmpLe.o [3]
+__aeabi_cdrcmple             0x3ed1          Code  Gb  DblCmpGe.o [3]
+__aeabi_d2f                  0x24f5          Code  Gb  DblToFlt.o [3]
+__aeabi_dadd                 0x2751          Code  Gb  DblAdd.o [3]
+__aeabi_ddiv                 0x2281          Code  Gb  DblDiv.o [3]
+__aeabi_dmul                 0x25ad          Code  Gb  DblMul.o [3]
+__aeabi_dsub                 0x2901          Code  Gb  DblSub.o [3]
+__aeabi_f2d                  0x2565          Code  Gb  FltToDbl.o [3]
+__aeabi_i2d                  0x2225          Code  Gb  S32ToDbl.o [3]
+__aeabi_memclr4              0x255d          Code  Gb  ABImemclr4.o [4]
+__aeabi_ui2d                 0x3d81          Code  Gb  U32ToDbl.o [3]
+__cmain                      0x4ac1          Code  Gb  cmain.o [4]
+__exit                       0x4af5    0x14  Code  Gb  exit.o [5]
+__iar_Memset4_word           0x28cd          Code  Gb  ABImemset48.o [4]
+__iar_Memset8_word           0x28cd          Code  Gb  ABImemset48.o [4]
+__iar_copy_init3             0x24c7    0x2e  Code  Gb  copy_init3.o [4]
+__iar_dadd                   0x2911          Code  Gb  DblSub.o [3]
+__iar_data_init3             0x4a51    0x28  Code  Gb  data_init.o [4]
+__iar_dsub                   0x2761          Code  Gb  DblAdd.o [3]
+__iar_dsubStart              0x2773          Code  Gb  DblAdd.o [3]
+__iar_init_vfp               0x4a79          Code  Gb  fpinit_M.o [3]
+__iar_program_start          0x4b25          Code  Gb  cstartup_M.o [4]
+__iar_sqrt64                 0x3ddd          Code  Gb  sqrt.o [3]
+__iar_vfp___iar_sqrt64       0x3dcd          Code  Gb  sqrt.o [3]
+__iar_vfp_sqrt               0x3dcd          Code  Gb  sqrt.o [3]
+__iar_vfp_sqrtl              0x3dcd          Code  Gb  sqrt.o [3]
+__iar_zero_init3             0x2247    0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init             0x4adf     0x4  Code  Gb  low_level_init.o [2]
+__vector_table                  0x0          Data  Gb  startup_LPC54606.o [1]
+__vector_table_0x1c            0x1c          Data  Gb  startup_LPC54606.o [1]
+_call_main                   0x4acd          Code  Gb  cmain.o [4]
+_exit                        0x4ae9          Code  Gb  cexit.o [4]
+_main                        0x4adb          Code  Gb  cmain.o [4]
+abs                          0x221d     0x8  Code  Gb  abs.o [2]
+black_line              0x2000'a2dc     0x4  Data  Gb  search.o [1]
+camera_init                  0x2b53    0xdc  Code  Gb  SEEKFREE_MT9V032.o [1]
+ch                      0x2000'a308     0x1  Data  Gb  Data_Send.o [1]
+cnt                     0x2000'a258     0x4  Data  Gb  Data_Send.o [1]
+cnt_duanlu              0x2000'a2e4     0x4  Data  Gb  search.o [1]
+cnt_ramp                0x2000'a2d8     0x4  Data  Gb  search.o [1]
+dam_init                     0x3b31   0x120  Code  Gb  LPC546XX_dma.o [1]
+dma_reload                   0x2a35    0x76  Code  Lc  SEEKFREE_MT9V032.o [1]
+end                     0x2000'a2e8     0x4  Data  Gb  search.o [1]
+exit                         0x4ae3     0x4  Code  Gb  exit.o [2]
+findPllMMult                 0x4345    0x1a  Code  Lc  LPC546XX_pll.o [1]
+findPllPostDiv               0x4321    0x24  Code  Lc  LPC546XX_pll.o [1]
+findPllPreDiv                0x42ff    0x22  Code  Lc  LPC546XX_pll.o [1]
+flexcomm_clk_enable          0x3f71    0xb8  Code  Gb  LPC546XX_flexcomm.o [1]
+flexcomm_get_clk             0x4029     0x6  Code  Gb  LPC546XX_flexcomm.o [1]
+flexcomm_irq                 0x4061    0x46  Code  Gb  LPC546XX_flexcomm.o [1]
+get_clk                      0x45bf    0x48  Code  Gb  LPC546XX_pll.o [1]
+get_config                   0x2aeb    0x68  Code  Gb  SEEKFREE_MT9V032.o [1]
+gpio_init                    0x40b1   0x106  Code  Gb  LPC546XX_gpio.o [1]
+icm_gyro_y              0x2000'a304     0x2  Data  Gb  SEEKFREE_ICM20602.o [1]
+image                   0x2000'01e0  0x5820  Data  Gb  SEEKFREE_MT9V032.o [1]
+iocon_init                   0x3f01    0x36  Code  Gb  LPC546XX_iocon.o [1]
+main                         0x4a21    0x30  Code  Gb  main.o [1]
+main_clk_mhz            0x2000'01d8     0x2  Data  Gb  LPC546XX_pll.o [1]
+mt9v032_cof_uart_interrupt
+                             0x2aab    0x40  Code  Gb  SEEKFREE_MT9V032.o [1]
+mt9v032_dma                  0x2c75    0x4a  Code  Gb  SEEKFREE_MT9V032.o [1]
+mt9v032_finish_flag     0x2000'a30b     0x1  Data  Gb  SEEKFREE_MT9V032.o [1]
+mt9v032_now_row         0x2000'a306     0x2  Data  Gb  SEEKFREE_MT9V032.o [1]
+mt9v032_vsync                0x2c2f    0x46  Code  Gb  SEEKFREE_MT9V032.o [1]
+myabs                        0x40a7     0x8  Code  Gb  SEEKFREE_FUN.o [1]
+offset_map              0x2000'0000    0xf0  Data  Gb  main.o [1]
+pint_init                    0x3c51   0x104  Code  Gb  LPC546XX_pint.o [1]
+pixel_undistort               0x781    0xaa  Code  Gb  search.o [1]
+pllDecodeM                   0x423f    0x68  Code  Lc  LPC546XX_pll.o [1]
+pllDecodeN                   0x41d5    0x6a  Code  Lc  LPC546XX_pll.o [1]
+pllDecodeP                   0x42a7    0x58  Code  Lc  LPC546XX_pll.o [1]
+pll_init                     0x455f    0x60  Code  Gb  LPC546XX_pll.o [1]
+receive                 0x2000'a2f8     0x4  Data  Gb  SEEKFREE_MT9V032.o [1]
+receive_num             0x2000'a309     0x1  Data  Gb  SEEKFREE_MT9V032.o [1]
+s_dma_descriptor_table  0x2000'9800   0x1e0  Data  Gb  LPC546XX_dma.o [1]
+sct_camera_dma               0x39ff    0xc4  Code  Gb  LPC546XX_sct.o [1]
+sct_input_mux                0x37ad   0x252  Code  Gb  LPC546XX_sct.o [1]
+sct_restart                  0x3ad9    0x1e  Code  Gb  LPC546XX_sct.o [1]
+sct_start                    0x3ac3    0x16  Code  Gb  LPC546XX_sct.o [1]
+sobel                        0x2f41   0x1ec  Code  Gb  SEEKFREE_MT9V032.o [1]
+sqrt                         0x3ddd          Code  Gb  sqrt.o [3]
+sqrtl                        0x3ddd          Code  Gb  sqrt.o [3]
+start_stop              0x2000'a2e0     0x4  Data  Gb  search.o [1]
+systick_delay                0x375d    0x20  Code  Gb  LPC546XX_systick.o [1]
+systick_delay_ms             0x377d    0x1e  Code  Gb  LPC546XX_systick.o [1]
+temp1                   0x2000'a25c     0x4  Data  Gb  Data_Send.o [1]
+temx                    0x2000'a2d0     0x4  Data  Gb  search.o [1]
+threshold               0x2000'a30a     0x1  Data  Gb  SEEKFREE_MT9V032.o [1]
+threshold_offset        0x2000'01d0     0x4  Data  Gb  main.o [1]
+uart_init                    0x3527   0x12c  Code  Gb  LPC546XX_uart.o [1]
+uart_mux                     0x3265   0x2c2  Code  Gb  LPC546XX_uart.o [1]
+uart_putbuff                 0x367b    0x20  Code  Gb  LPC546XX_uart.o [1]
+uart_putchar                 0x3653    0x28  Code  Gb  LPC546XX_uart.o [1]
+uart_query                   0x369b    0x2a  Code  Gb  LPC546XX_uart.o [1]
+uart_receive_flag       0x2000'01dc     0x1  Data  Gb  SEEKFREE_MT9V032.o [1]
+uart_rx_irq                  0x36c5    0x92  Code  Gb  LPC546XX_uart.o [1]
+whitecnt                0x2000'a2cc     0x4  Data  Gb  search.o [1]
+write_syspllctrl             0x44df    0x80  Code  Gb  LPC546XX_pll.o [1]
+
+
+[1] = C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191012\always wuwuwu camera computer\Projecct\IAR\program\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  19'658 bytes of readonly  code memory
+      76 bytes of readwrite code memory
+     518 bytes of readonly  data memory
+  49'853 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
