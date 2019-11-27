@@ -1,0 +1,17 @@
+"I:\IAR\arm\bin\armproc.dll" 
+
+"I:\IAR\arm\bin\armJET.dll" 
+
+"C:\Users\liuke\Desktop\junior\NXP_intellectual_car\ourprogress\wuwuwu191120\Seekfree_RT1064_Opensource_Library\Project\IAR\program\nor_sdram_zf_dtcm\Exe\RT106X.out" 
+
+--plugin="I:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="I:\IAR\arm\config\debugger\NXP\iMXRT.dmac" 
+
+--device_macro="I:\IAR\arm\config\debugger\NXP\iMXRT_Trace.dmac" 
+
+--flash_loader="I:\IAR\arm\config\flashloader\NXP\FlashIMXRT1064_SIP.board" 
+
+
+
+
